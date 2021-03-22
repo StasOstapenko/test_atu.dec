@@ -172,6 +172,118 @@ function changeImg(image1, image2, image3, image4) {
     if (image4 === "") {
         imghol.style.visibility = "hidden";
     }
+	    var imghol = document.getElementById("image-holder5");
+    imghol.src = image5;
+    imghol.style = "width:100%;height:100%";
+    imghol.style.visibility = "visible"
+    if (image5 === "") {
+        imghol.style.visibility = "hidden";
+    }
+	    var imghol = document.getElementById("image-holder6");
+    imghol.src = image6;
+    imghol.style = "width:100%;height:100%";
+    imghol.style.visibility = "visible"
+    if (image6 === "") {
+        imghol.style.visibility = "hidden";
+    }
+	    var imghol = document.getElementById("image-holder7");
+    imghol.src = image7;
+    imghol.style = "width:100%;height:100%";
+    imghol.style.visibility = "visible"
+    if (image7 === "") {
+        imghol.style.visibility = "hidden";
+    }
+	    var imghol = document.getElementById("image-holder8");
+    imghol.src = image8;
+    imghol.style = "width:100%;height:100%";
+    imghol.style.visibility = "visible"
+    if (image8 === "") {
+        imghol.style.visibility = "hidden";
+    }
+	    var imghol = document.getElementById("image-holder9");
+    imghol.src = image9;
+    imghol.style = "width:100%;height:100%";
+    imghol.style.visibility = "visible"
+    if (image9 === "") {
+        imghol.style.visibility = "hidden";
+    }
+	    var imghol = document.getElementById("image-holder10");
+    imghol.src = image10;
+    imghol.style = "width:100%;height:100%";
+    imghol.style.visibility = "visible"
+    if (image10 === "") {
+        imghol.style.visibility = "hidden";
+    }
+	    var imghol = document.getElementById("image-holder11");
+    imghol.src = image11;
+    imghol.style = "width:100%;height:100%";
+    imghol.style.visibility = "visible"
+    if (image11 === "") {
+        imghol.style.visibility = "hidden";
+    }
+	    var imghol = document.getElementById("image-holder12");
+    imghol.src = image12;
+    imghol.style = "width:100%;height:100%";
+    imghol.style.visibility = "visible"
+    if (image12 === "") {
+        imghol.style.visibility = "hidden";
+    }
+	    var imghol = document.getElementById("image-holder13");
+    imghol.src = image13;
+    imghol.style = "width:100%;height:100%";
+    imghol.style.visibility = "visible"
+    if (image13 === "") {
+        imghol.style.visibility = "hidden";
+    }
+	    var imghol = document.getElementById("image-holder14");
+    imghol.src = image14;
+    imghol.style = "width:100%;height:100%";
+    imghol.style.visibility = "visible"
+    if (image14 === "") {
+        imghol.style.visibility = "hidden";
+    }
+	    var imghol = document.getElementById("image-holder15");
+    imghol.src = image15;
+    imghol.style = "width:100%;height:100%";
+    imghol.style.visibility = "visible"
+    if (image15 === "") {
+        imghol.style.visibility = "hidden";
+    }
+	    var imghol = document.getElementById("image-holder16");
+    imghol.src = image16;
+    imghol.style = "width:100%;height:100%";
+    imghol.style.visibility = "visible"
+    if (image16 === "") {
+        imghol.style.visibility = "hidden";
+    }
+	    var imghol = document.getElementById("image-holder17");
+    imghol.src = image17;
+    imghol.style = "width:100%;height:100%";
+    imghol.style.visibility = "visible"
+    if (image17 === "") {
+        imghol.style.visibility = "hidden";
+    }
+	    var imghol = document.getElementById("image-holder18");
+    imghol.src = image18;
+    imghol.style = "width:100%;height:100%";
+    imghol.style.visibility = "visible"
+    if (image18 === "") {
+        imghol.style.visibility = "hidden";
+    }
+	    var imghol = document.getElementById("image-holder19");
+    imghol.src = image19;
+    imghol.style = "width:100%;height:100%";
+    imghol.style.visibility = "visible"
+    if (image19 === "") {
+        imghol.style.visibility = "hidden";
+    }
+	    var imghol = document.getElementById("image-holder20");
+    imghol.src = image20;
+    imghol.style = "width:100%;height:100%";
+    imghol.style.visibility = "visible"
+    if (image20 === "") {
+        imghol.style.visibility = "hidden";
+    }
 };
 
 window.addEventListener("load", function () {
