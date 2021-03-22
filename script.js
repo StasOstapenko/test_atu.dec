@@ -303,7 +303,7 @@ window.addEventListener("load", function () {
 
     var svg = svgObject.getElementById('obl_zhytomyr');
     svg.addEventListener('click', event => {
-        changeImg(base_dir + 'zhytomyr1.png', base_dir + 'zhytomyr2.png', base_dir + 'zhytomyr3.png', base_dir + 'zhytomyr4.png', base_dir + 'zhytomyr5.png', base_dir + 'zhytomyr6.png', base_dir + 'zhytomyr7.png', base_dir + 'zhytomyr8.png', base_dir + 'zhytomyr9.png', base_dir + 'zhytomyr10.png', base_dir + 'zhytomyr11.png', base_dir + 'zhytomyr12.png', base_dir + 'zhytomyr13.png', base_dir + 'zhytomyr14.png')
+        changeImg(base_dir + 'zhytomyr1.png', base_dir + 'zhytomyr2.png', base_dir + 'zhytomyr3.png', base_dir + 'zhytomyr4.png', base_dir + 'zhytomyr5.png', base_dir + 'zhytomyr6.png', base_dir + 'zhytomyr7.png', base_dir + 'zhytomyr8.png', base_dir + 'zhytomyr9.png', base_dir + 'zhytomyr10.png', base_dir + 'zhytomyr11.png', base_dir + 'zhytomyr12.png', base_dir + 'zhytomyr13.png', base_dir + 'zhytomyr14.png', "")
         $('#exampleModalCenter').modal('show');
     });
 
