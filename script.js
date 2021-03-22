@@ -142,7 +142,7 @@ if (mainPin.checked === true){
   });
 
 
-function changeImg(image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image13, image14, image15, image16, image17, image18, image19, image20) {
+function changeImg(image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image13, image14, image15, image16, image17, image18, image19, image20, image21) {
     var imghol = document.getElementById("image-holder1");
     imghol.src = image1;
     imghol.style = "width:100%;height:100%";
@@ -282,6 +282,13 @@ function changeImg(image1, image2, image3, image4, image5, image6, image7, image
     imghol.style = "width:100%;height:100%";
     imghol.style.visibility = "visible"
     if (image20 === "") {
+        imghol.style.visibility = "hidden";
+    }
+		var imghol = document.getElementById("image-holder21");
+    imghol.src = image21;
+    imghol.style = "width:100%;height:100%";
+    imghol.style.visibility = "visible"
+    if (image21 === "") {
         imghol.style.visibility = "hidden";
     }
 };
