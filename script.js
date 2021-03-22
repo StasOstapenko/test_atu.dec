@@ -142,7 +142,7 @@ if (mainPin.checked === true){
   });
 
 
-function changeImg(image1, image2, image3, image4, image5) {
+function changeImg(image1, image2) {
     var imghol = document.getElementById("image-holder1");
     imghol.src = image1;
     imghol.style = "width:100%;height:100%";
@@ -156,27 +156,6 @@ function changeImg(image1, image2, image3, image4, image5) {
     imghol.style = "width:100%;height:100%";
     imghol.style.visibility = "visible"
     if (image2 === "") {
-        imghol.style.visibility = "hidden";
-    }
-    var imghol = document.getElementById("image-holder3");
-    imghol.src = image3;
-    imghol.style = "width:100%;height:100%";
-    imghol.style.visibility = "visible"
-    if (image3 === "") {
-        imghol.style.visibility = "hidden";
-    }
-    var imghol = document.getElementById("image-holder4");
-    imghol.src = image4;
-    imghol.style = "width:100%;height:100%";
-    imghol.style.visibility = "visible"
-    if (image4 === "") {
-        imghol.style.visibility = "hidden";
-    }
-    var imghol = document.getElementById("image-holder5");
-    imghol.src = image5;
-    imghol.style = "width:100%;height:100%";
-    imghol.style.visibility = "visible"
-    if (image5 === "") {
         imghol.style.visibility = "hidden";
     }
 };
