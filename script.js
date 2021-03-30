@@ -166,7 +166,7 @@ window.addEventListener("load", function () {
     svg.addEventListener('click', event => {
        changeImg(base_dir + '1Llh7uMOh1DpnwRUh45ejwRQIyrwjNurs/preview')
         $('#exampleModalCenter').modal('show');
-         console.log('Крим наш!');
+         console.log('Крим - це Україна!');
     });
 
     var svg = svgObject.getElementById('obl_zhytomyr');
